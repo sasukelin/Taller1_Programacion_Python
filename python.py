@@ -1,0 +1,13 @@
+numeros = []
+
+for i in range(4):
+    numero = float(input("Ingrese un número: "))
+    numeros.append(numero)
+
+numeros.sort()
+
+print("Los números ordenados de menor a mayor son:")
+for numero in numeros:
+    print(numero)
+
+
