@@ -9,3 +9,4 @@ numeros.sort()
 print("Los números ordenados de menor a mayor son:")
 for numero in numeros:
     print(numero)
+
